@@ -9,7 +9,7 @@ These files have been tested and used to generate a live ELK deployment on Azure
   - install-elk.yml
 
 This document contains the following details:
-- Description of the Topologu
+- Description of the Topology
 - Access Policies
 - ELK Configuration
   - Beats in Use
@@ -26,19 +26,19 @@ Load balancing ensures that the application will be highly available, in additio
   Using a jump box, the enviroment allows control of the application deployment for our network.  Using Docker to configure and update our environment, gives flexibility and consisentcy with the 
   applications installation.
 
-Integrating an ELK server allows users to easily monitor the vulnerable VMs for changes to the _____ and system _____.
+Integrating an ELK server allows users to easily monitor the vulnerable VMs for changes to the enviroment and system logs.
 - Filebeat helps generate and organize log files to send to Logstash and Elasticsearch. Specifically, it logs information about the file system, including which files have changed and when.
 - Metricbeat is a lightweight shipper that you can install on your servers to periodically collect metrics from the operating system and from services running on the server. Metricbeat takes the metrics and statistics that it collects and ships them to the output that you specify, such as Elasticsearch or Logstash.
 
 
 The configuration details of each machine may be found below.
 _Note: Use the [Markdown Table Generator](http://www.tablesgenerator.com/markdown_tables) to add/remove values from the table_.
-| Name         | Function           | IP Address    | Operation System |   |
-|--------------|--------------------|---------------|------------------|---|
-| Jump box     | Gateway            | 13.68.227.24  | Linux            |   |
-| Web 1 (DVMA) |                    | 20.25.15.56   | Linux            |   |
-| Web 2 (DVMA) |                    | 20.25.15.56   | Linux            |   |
-| Elk-Server   | Metrics via Kibana | 20.122.12.117 | Linux            |   |
+| Name         | Function           | IP Address    | Operation System |
+|--------------|--------------------|---------------|------------------|
+| Jump box     | Gateway            | 13.68.227.24  | Linux            |
+| Web 1 (DVMA) |                    | 20.25.15.56   | Linux            |
+| Web 2 (DVMA) |                    | 20.25.15.56   | Linux            |
+| Elk-Server   | Metrics via Kibana | 20.122.12.117 | Linux            |
 
 ### Access Policies
 The machines on the internal network are not exposed to the public Internet. 
