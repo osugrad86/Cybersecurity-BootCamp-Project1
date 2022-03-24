@@ -51,13 +51,13 @@ Machines within the network can only be accessed by SSH.
   IP Address variable - see Special Note below.
 
 ### Special Note: 
-My internet service provider (ISP) uses dynamic assignment of my home laptop's IP address.  This requires an update to the NSG of my virtual network each time I started up the laptop.
-Using a tool like IP Monkey or IP Chicken to get the current IP address of my laptop, I needed to edit the NSG to reflect this new value.  Otherwise, I would not have access to any of the virtual machines.
+**My internet service provider (ISP) uses dynamic assignment of my home laptop's IP address.  This requires an update to the NSG of my virtual network each time I started up the laptop.
+Using a tool like IP Monkey or IP Chicken to get the current IP address of my laptop, I needed to edit the NSG to reflect this new value.  Otherwise, I would not have access to any of the virtual machines.**
 
 My home laptop was granted access to the ELK VM.  Its IP address varies see: Special Note above. 
 
 ### Additional Note: 
-When building out the virtual network in Azure, I was unable to load the resources I had created. I got a fetching error msg. (see below)
+**When building out the virtual network in Azure, I was unable to load the resources I had created. I got a fetching error msg. (see below)
 
 ![Azure Portal Fetch Error ](https://github.com/osugrad86/Cybersecurity-BootCamp-Project1/blob/main/Images/Fetch_Error.png)
 
