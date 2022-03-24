@@ -57,9 +57,9 @@ Using a tool like IP Monkey or IP Chicken to get the current IP address of my la
 My home laptop was granted access to the ELK VM.  Its IP address varies see: Special Note above. 
 
 ### Additional Note: 
-When build out the virtual network in Azure, I was unable to load the resources I had created. I got a fetching error msg. (see below)_
+When building out the virtual network in Azure, I was unable to load the resources I had created. I got a fetching error msg. (see below)_
 
-_[](Images/Fetch__Error.png)_
+!_[](Images/Fetch__Error.png)_
 
 I also had my Anti-Virus Software deny access in the Azure portal with a message about the web address being blacklisted. I was able to update my Anti-virus software with a rule that added an exception__
 to grant access to that web address.
