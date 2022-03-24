@@ -66,6 +66,8 @@ I also had my Anti-Virus Software deny access in the Azure portal with a message
 ![Virus block](https://github.com/osugrad86/Cybersecurity-BootCamp-Project1/blob/main/Images/Virus-block.png)
 
 
+
+
 A summary of the access policies in place can be found in the table below.
 
 | Name         | Publicly Accessible  | Allowed IP Addresses |
