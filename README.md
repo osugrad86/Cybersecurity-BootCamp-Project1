@@ -50,13 +50,12 @@ Machines within the network can only be accessed by SSH.
 - The network was configured to grant access over IP Address and I used my Home laptop's IP address to build the security rules.
   IP Address variable - see Special Note below.
 
-### Special Note: 
-**My internet service provider (ISP) uses dynamic assignment of my home laptop's IP address.  This requires an update to the NSG of my virtual network each time I started up the laptop.
-Using a tool like IP Monkey or IP Chicken to get the current IP address of my laptop, I needed to edit the NSG to reflect this new value.  Otherwise, I would not have access to any of the virtual machines.**
+### Project Challenges: 
+**My internet service provider (ISP) uses dynamic assignment of my home laptop's IP address.  This requires an update to the NSG (Network Security Group) of my virtual network each time I started up the laptop. Using a tool like IP Monkey or IP Chicken to get the current IP address of my laptop, I needed to edit the NSG to reflect this new value.  Otherwise, I would not have access to any of the virtual machines.**
 
 My home laptop was granted access to the ELK VM.  Its IP address varies see: Special Note above. 
 
-### Additional Note: 
+### Lesson Learned: 
 **When building out the virtual network in Azure, I was unable to load the resources I had created. I got a fetching error msg. (see below)**
 
 ![Azure Portal Fetch Error ](https://github.com/osugrad86/Cybersecurity-BootCamp-Project1/blob/main/Images/Fetch_Error.png)
@@ -72,21 +71,23 @@ A summary of the access policies in place can be found in the table below.
 
 | Name         | Publicly Accessible  | Allowed IP Addresses |
 |--------------|----------------------|----------------------|
-| Jump box     | No                   |                      |
-| Web 1 (DVMA) | Yes                  | 20.25.15.56          |
-| Web 2 (DVMA) | Yes                  | 20.25.15.56          |
-| Elk-Server   | No                   |                      |
+| Jump box     | Yes                  |                      |
+| Web 1 (DVMA) | No                   | 20.25.15.56          |
+| Web 2 (DVMA) | No                   | 20.25.15.56          |
+| Elk-Server   | Yes                  |                      |
 
 
 ### Elk Configuration
 
 Ansible was used to automate configuration of the ELK machine. No configuration was performed manually, which is advantageous because...
-- _TODO: What is the main advantage of automating configuration with Ansible?_
+- Automation gives consistant deployment of the docker containers. This allows for easier management of the entire network. Any modifications or updates to the ansible code files (YAML,etc) is easily done and defined by the existing code.
 
 The playbook implements the following tasks:
 - _TODO: In 3-5 bullets, explain the steps of the ELK installation play. E.g., install Docker; download image; etc._
-- ...
-- ...
+- Installation of the docker application using apt install
+- Installation of python3-pip using apt install
+- Increase virtual memory in the enviroment using sysctl -w vm.max_map_count=262144
+- Download and launch the Elk Container using image: sebp/elk:761
 
 The following screenshot displays the result of running `docker ps` akfter successfully configuring the ELK instance.
 
