@@ -88,7 +88,6 @@ Ansible was used to automate configuration of the ELK machine. No configuration 
 - Automation gives consistant deployment of the docker containers. This allows for easier management of the entire network. Any modifications or updates to the ansible code files (YAML,etc) is easily done and defined by the existing code.
 
 The playbook implements the following tasks:
-- _TODO: In 3-5 bullets, explain the steps of the ELK installation play. E.g., install Docker; download image; etc._
 - Installation of the docker application using apt install
 - Installation of python3-pip using apt install
 - Increase virtual memory in the enviroment using sysctl -w vm.max_map_count=262144
@@ -127,8 +126,10 @@ SSH into the control node, the jumpbox in this environment, and follow the steps
 - Run the playbook, and navigate to kibana web page to check that the installation worked as expected.
 
 
-- install-elk.yml copied to /etc/ansible on the control node (jump box)
-- Changes are needed in both the Ansible.cfg and hosts files.  Ansible.cfg needs the remote user name update for the VM's being update via Ansible. The /etc/hosts file needs updated with the IP Address of the web VM.  _Which file do you update to make Ansible run the playbook on a specific machine? How do I specify which machine to install the ELK server on versus which to install Filebeat on?_
-- http://<Elk-Server Public IP>:5601/app/kibana _Which URL do you navigate to in order to check that the ELK server is running?_
+- install-elk.yml copied to /etc/ansible on the control node, the jump box in this virtual environment
+- Changes are needed in both the Ansible.cfg and hosts files.  Ansible.cfg needs the remote user name update for the VM's being update via Ansible. The /etc/hosts file needs updated with the IP Address of the web VM. 
+- 
+-   _Which file do you update to make Ansible run the playbook on a specific machine? How do I specify which machine to install the ELK server on versus which to install Filebeat on?_
+- http://<Elk-Server Public IP>:5601/app/kibana
 
 _As a **Bonus**, provide the specific commands the user will need to run to download the playbook, update the files, etc._
