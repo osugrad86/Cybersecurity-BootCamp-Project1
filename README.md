@@ -104,6 +104,19 @@ This ELK server is configured to monitor the following machines:
 We have installed the following Beats on these machines:
 - Filebeats and Metricbeats
 
+Installation of Filebeats using ansible playbook **Filebeat-playbook.yml**
+
+!(../../blob/main/Images/Running%20/Filebeat-playbook.yml-edited.png)
+
+Installation of Metricbeats using ansible playbook **Metricbeat-playbook.yml**
+
+!(../../blob/main/Images/Running%20/Metricbeat-playbook.yml-edited.png)
+
+
+
+### Kibana web pages showing that both Filebeats and Metricbeats are active on Web 1 and Web2 VM
+
+
 Filebeats Screenshot
 ![Filebeats Screenshot](../../blob/main/Images/Kibana-Filebeats.png)
 
