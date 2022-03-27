@@ -100,7 +100,7 @@ This ELK server is configured to monitor the following machines:
 We have installed the following Beats on these machines:
 - Filebeats and Metricbeats
 
-![Filebeats Screenshot](../../tree/main/Images/Kibana-Filebeats.png)
+![Filebeats Screenshot](../../blob/main/Images/Kibana-Filebeats.png)
 
 
 ![Metricbeats Screenshot](/../../../main/Images/Kibana-Metricbeats.png)
