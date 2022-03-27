@@ -53,9 +53,9 @@ Only the Web virtual machine can accept connections from the Internet. Access to
 
 Machines within the network can only be accessed by SSH.
 - The network was configured to grant access over IP Address and I used my Home laptop's IP address to build the security rules.
-  IP Address variable - see Special Note below.
+  IP Address variable - see Project Challenge below.
 
-### Project Challenges: 
+### Project Challenge: 
 **My internet service provider (ISP) uses dynamic assignment of my home laptop's IP address.  This requires an update to the NSG (Network Security Group) of my virtual network each time I started up the laptop. Using a tool like IP Monkey or IP Chicken to get the current IP address of my laptop, I needed to edit the NSG to reflect this new value.  Otherwise, I would not have access to any of the virtual machines.**
 
 My home laptop was granted access to the ELK VM.  Its IP address varies see: Special Note above. 
