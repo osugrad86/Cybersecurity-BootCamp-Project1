@@ -102,7 +102,6 @@ We have installed the following Beats on these machines:
 
 ![Filebeats Screenshot](https://github.com/osugrad86/Cybersecurity-BootCamp-Project1/blob/main/Images/Kibana-Filebeats.png)
 
-
 ![Metricbeats Screenshot](https://github.com/osugrad86/Cybersecurity-BootCamp-Project1/blob/main/Images/Kibana-Metricbeats.png)
 
 
