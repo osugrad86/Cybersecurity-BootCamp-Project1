@@ -101,11 +101,11 @@ We have installed the following Beats on these machines:
 - Filebeats and Metricbeats
 
 Filebeats Screenshot
-!/../main/Images/'Kibana Filebeats.png'
+!/../blob/main/Images/'Kibana Filebeats.png'
 
 
 Metricbeats Screenshot
-!/../main/Images/'Kibana Metricbeats.png'
+!/../blob/main/Images/'Kibana Metricbeats.png'
 
 
 These Beats allow us to collect the following information from each machine:
