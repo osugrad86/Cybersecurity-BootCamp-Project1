@@ -6,7 +6,7 @@ The files in this repository were used to configure the network depicted below.
 
 
 
-![Relative path to image file](../../../blob/main/Images/Project%201%20Network%20Diagram.drawio.png)
+![Relative path to image file](../../blob/main/Images/Project%201%20Network%20Diagram.drawio.png)
 
 
 
