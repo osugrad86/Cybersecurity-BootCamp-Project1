@@ -63,11 +63,11 @@ My home laptop was granted access to the ELK VM.  Its IP address varies see: Spe
 ### Lesson Learned: 
 **When building out the virtual network in Azure, I was unable to load the resources I had created. I got a fetching error msg. (see below)**
 
-![Azure Portal Fetch Error ](https://github.com/osugrad86/Cybersecurity-BootCamp-Project1/blob/main/Images/Fetch_Error.png)
+![Azure Portal Fetch Error ](../../blob/main/Images/Fetch_Error.png)
 
 **I also had my Anti-Virus Software deny access in the Azure portal with a message about the web address being blacklisted. I was able to update my Anti-virus software with a rule that added an exception to grant access to that web address. This prevented me from getting the fetching error and I was able to access all the resources again in the Azure portal.**
 
-![Virus block](https://github.com/osugrad86/Cybersecurity-BootCamp-Project1/blob/main/Images/Virus-block.png)
+![Virus block](../../blob/main/Images/Virus-block.png)
 
 
 
