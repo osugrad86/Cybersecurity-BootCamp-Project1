@@ -96,7 +96,7 @@ The playbook implements the following tasks:
 
 The following screenshot displays the result of running `docker ps` akfter successfully configuring the ELK instance.
 
-![Elk Stack Container](https://github.com/osugrad86/Cybersecurity-BootCamp-Project1/blob/main/Images/Elk_Container_Running.png)
+![Elk Stack Container](../../blob/main/Images/Elk_Container_Running.png)
 
 ### Target Machines & Beats
 This ELK server is configured to monitor the following machines:
@@ -105,11 +105,11 @@ This ELK server is configured to monitor the following machines:
 We have installed the following Beats on these machines:
 - Filebeats and Metricbeats
 
-![Filebeats Screenshot](https://github.com/osugrad86/Cybersecurity-BootCamp-Project1/blob/main/Images/Kibana-Filebeats.png)
+![Filebeats Screenshot](../../blob/main/Images/Kibana-Filebeats.png)
 
 
 
-![Metricbeats Screenshot](https://github.com/osugrad86/Cybersecurity-BootCamp-Project1/blob/main/Images/Kibana-Metricbeats.png)
+![Metricbeats Screenshot](../../blob/main/Images/Kibana-Metricbeats.png)
 
 
 These Beats allow us to collect the following information from each machine:
