@@ -106,11 +106,11 @@ We have installed the following Beats on these machines:
 
 Installation of Filebeats using ansible playbook **Filebeat-playbook.yml**
 
-![](../../blob/main/Images/Running%20/Filebeat-playbook.yml-edited.png)
+![](../../blob/main/Images/Running%20Filebeat-playbook.yml-edited.png)
 
 Installation of Metricbeats using ansible playbook **Metricbeat-playbook.yml**
 
-![](../../blob/main/Images/Running%20/Metricbeat-playbook.yml-edited.png)
+![](../../blob/main/Images/Running%20Metricbeat-playbook.yml-edited.png)
 
 
 
