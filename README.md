@@ -113,7 +113,7 @@ These Beats allow us to collect the following information from each machine:
 ### Using the Playbook
 In order to use the playbook, you will need to have an Ansible control node already configured. Assuming you have such a control node provisioned: 
 
-SSH into the control node and follow the steps below:
+SSH into the control node, the jumpbox in this environment, and follow the steps below:
 - Copy the install-elk.yaml file to /etc/ansible.
 - Update the ansible.cfg file to include the remote_user for the hosts you will be updating.  The /etc/ansible/hosts file also need to update with the IP addresses of the Web VMs 
 - Run the playbook, and navigate to kibana web page to check that the installation worked as expected.
