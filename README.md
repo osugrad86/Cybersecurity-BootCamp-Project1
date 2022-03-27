@@ -107,8 +107,6 @@ We have installed the following Beats on these machines:
 
 ![Filebeats Screenshot](../../blob/main/Images/Kibana-Filebeats.png)
 
-
-
 ![Metricbeats Screenshot](../../blob/main/Images/Kibana-Metricbeats.png)
 
 
