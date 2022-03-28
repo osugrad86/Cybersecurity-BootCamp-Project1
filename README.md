@@ -93,7 +93,7 @@ The playbook implements the following tasks:
 - Increase virtual memory in the enviroment using sysctl -w vm.max_map_count=262144
 - Download and launch the Elk Container using image: sebp/elk:761
 
-The following screenshot displays the result of running `docker ps` akfter successfully configuring the ELK instance.
+The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
 
 ![Elk Stack Container](../../blob/main/Images/Elk_Container_Running.png)
 
@@ -129,6 +129,7 @@ Metricbeats Screenshot
 
 These Beats allow us to collect the following information from each machine:
 - _TODO: In 1-2 sentences, explain what kind of data each beat collects, and provide 1 example of what you expect to see. E.g., `Winlogbeat` collects Windows logs, which we use to track user logon events, etc._
+- Filebeats in the ELK environment is configured to gather system logs and 
 
 ### Using the Playbook
 In order to use the playbook, you will need to have an Ansible control node already configured. Assuming you have such a control node provisioned: 
