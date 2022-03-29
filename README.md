@@ -49,7 +49,7 @@ _Note: Use the [Markdown Table Generator](http://www.tablesgenerator.com/markdow
 The machines on the internal network are not exposed to the public Internet. 
 
 Only the Web virtual machine can accept connections from the Internet. Access to this machine is only allowed from the following IP addresses:
-- 20.25.15.56
+- 20.25.15.56, which actually maps to a load balancer for the Web VM's configured in the VNet.
 
 Machines within the network can only be accessed by SSH.
 - The network was configured to grant access over IP Address and I used my Home laptop's IP address to build the security rules.
@@ -128,8 +128,9 @@ Metricbeats Screenshot
 
 
 These Beats allow us to collect the following information from each machine:
-- _TODO: In 1-2 sentences, explain what kind of data each beat collects, and provide 1 example of what you expect to see. E.g., `Winlogbeat` collects Windows logs, which we use to track user logon events, etc._
-- Filebeats in the ELK environment is configured to gather system logs and 
+
+- Filebeats in the ELK environment is configured to gather information about the file system logs including which files have changed and when. The logs are organizzed and sent to Elasticsearch and Logstash.
+- Metricbeats in the Elk envirionment is configured to collect metrics associated with the docker containers that have been installed on the Web 1 and Web2 VM
 
 ### Using the Playbook
 In order to use the playbook, you will need to have an Ansible control node already configured. Assuming you have such a control node provisioned: 
