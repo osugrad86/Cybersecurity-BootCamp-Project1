@@ -37,7 +37,7 @@ Integrating an ELK server allows users to easily monitor the vulnerable VMs for 
 
 **Additonally the Azure Portal defined the topology seen below:**
 
-![](../../blob/main/Images/topology.svg)
+![Azure Portal](../../blob/main/Images/topology.svg)
 
 
 The configuration details of each machine may be found below.
