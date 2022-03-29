@@ -129,8 +129,8 @@ Metricbeats Screenshot
 
 These Beats allow us to collect the following information from each machine:
 
-- Filebeats in the ELK environment is configured to gather information about the file system logs including which files have changed and when. The logs are organizzed and sent to Elasticsearch and Logstash.
-- Metricbeats in the Elk envirionment is configured to collect metrics associated with the docker containers that have been installed on the Web 1 and Web2 VM
+- Filebeats in the ELK environment is configured to gather information about the file system logs including which files have changed and when. The logs are organized and sent to Elasticsearch and Logstash.
+- Metricbeats in the Elk envirionment is configured to collect metrics associated with the docker containers that have been installed on the Web 1 and Web2 VM. 
 
 ### Using the Playbook
 In order to use the playbook, you will need to have an Ansible control node already configured. Assuming you have such a control node provisioned: 
